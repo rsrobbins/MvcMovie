@@ -14,6 +14,18 @@ namespace MvcMovie.Controllers
             return View();
         }
 
+        public ActionResult Test()
+        {
+            ViewBag.Name = "Robert Robbins";
+            return View();
+        }
+
+        public ActionResult Example()
+        {
+            ViewBag.Name = "Robert Robbins";
+            return View();
+        }
+
         // 
         // GET: /HelloWorld/Welcome/ 
 
